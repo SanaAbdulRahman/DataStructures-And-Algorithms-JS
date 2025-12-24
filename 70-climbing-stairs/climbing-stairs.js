@@ -7,9 +7,9 @@ var climbStairs = function(n) {
         return n;
     }
     let firstStep=1;
-    let secondStep=1;
+    let secondStep=2;
     let thirdStep=0
-    for(let i=2;i<=n;i++){
+    for(let i=3;i<=n;i++){
         thirdStep=firstStep+secondStep
         firstStep=secondStep
         secondStep=thirdStep;
